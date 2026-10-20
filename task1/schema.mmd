@@ -1,0 +1,112 @@
+erDiagram
+  PERSON ||--o| FACILITATOR : "may be"
+  PERSON ||--o{ APPLICATION : submits
+  COHORT ||--o{ APPLICATION : receives
+  COHORT ||--o{ GROUP : contains
+  FACILITATOR ||--o{ GROUP : facilitates
+  GROUP ||--o{ SESSION : holds
+  APPLICATION ||--o{ GROUP_MEMBERSHIP : "placed via"
+  GROUP ||--o{ GROUP_MEMBERSHIP : has
+  GROUP_MEMBERSHIP ||--o{ ATTENDANCE : logs
+  SESSION ||--o{ ATTENDANCE : logs
+  APPLICATION ||--o{ WEEKLY_REFLECTION : submits
+  APPLICATION ||--o| DEPOSIT : commits
+  APPLICATION |o--o{ PAYMENT : "paid against"
+  PAYMENT |o--o{ PAYMENT : "refund_of"
+
+  PERSON {
+    integer person_id PK
+    text email UK "lowercase, one per person"
+    text full_name
+    text preferred_name
+    text country
+    text timezone
+  }
+  FACILITATOR {
+    integer person_id PK,FK
+    text trained_at
+    integer active "0/1"
+  }
+  COHORT {
+    integer cohort_id PK
+    text name UK "2026 Summer"
+  }
+  GROUP {
+    integer group_id PK
+    integer group_number UK "81, 82"
+    integer cohort_id FK
+    integer facilitator_id FK "one per group"
+  }
+  SESSION {
+    integer session_id PK
+    integer group_id FK
+    integer week_number "1-8, 12"
+    text held_on
+  }
+  APPLICATION {
+    text application_id PK "RW26-018"
+    integer person_id FK
+    integer cohort_id FK
+    text applied_at
+    text status "for_matching ... completed"
+    integer sharing_consent "0/1"
+  }
+  GROUP_MEMBERSHIP {
+    integer membership_id PK
+    text application_id FK
+    integer cohort_id FK "must match group's cohort"
+    integer group_id FK
+    integer start_week
+    integer end_week "null = current"
+    text end_reason "moved, dropped"
+  }
+  ATTENDANCE {
+    integer membership_id PK,FK
+    integer session_id PK,FK
+    integer group_id FK "session in member's group"
+    real presence "0, 0.5, 1"
+  }
+  WEEKLY_REFLECTION {
+    integer reflection_id PK
+    text application_id FK
+    integer week_number "one per week"
+    text submitted_at
+    integer phq_nervous "0-3"
+    integer phq_worrying "0-3"
+    integer phq_interest "0-3"
+    integer phq_down "0-3"
+    integer engaging "1-10"
+    integer facilitator "1-10"
+    integer felt_supported "1-10"
+    integer home_practice "0-100"
+  }
+  DEPOSIT {
+    text application_id PK,FK
+    integer amount_minor "5000, 20000"
+    text currency
+    text outcome "pending, refunded, forfeited, donated"
+    text decided_at
+  }
+  PAYMENT {
+    integer payment_id PK
+    text provider "stripe, wise, paypal"
+    text provider_ref UK
+    text application_id FK "null if unmatched"
+    text kind "charge, refund"
+    integer refund_of FK
+    text purpose "combined, deposit, contribution"
+    integer amount_minor "gross"
+    text currency
+    integer fee_minor "null if unknown"
+    text status
+    text created_at
+    text payer_name
+    text payer_email
+  }
+  IMPORT_ISSUE {
+    integer issue_id PK
+    text source "applications.csv"
+    integer line
+    text application_id "no FK"
+    text message
+  }

@@ -1,0 +1,26 @@
+Participant,"Decision (refund, no refund or not yet)",Amount (USD),"Why, or what is missing (only if not straightforward)"
+Aisha Khan,no refund,0,"Met the refund conditions but chose to donate the deposit. Week 12 attendance not recorded, but already has 8 sessions. Airtable status is still 'In Facilitation Round'."
+Amara Diallo,refund,50,
+Anneke Bos,refund,200,
+Ben Whitlock,no refund,0,"Attended 6 of 9 sessions (needs 8); week 12 is not recorded but can't change the result. Airtable says 'Refunded', but no refund was ever paid."
+Chiara Bianchi,no refund,0,No reflection for week 12. No deposit payment on record.
+Daniel Okoro,no refund,0,Attended 7 of 9 sessions (needs 8).
+Daniel Reyes,refund,50,
+Emily Carter,refund,200,
+Greta Sommer,refund,200,Already refunded in Stripe; Airtable still says 'Pending'.
+Hannah Lindgren,refund,200,Moved from Group 82 to Group 83 in week 3; attendance counted across both groups.
+Isabel Ferreira,not yet,0,Missing: attendance for week 12 (not recorded). Has 7.5 sessions and needs 0.5 more.
+Jonas Feld,refund,200,Records under jfeld88@mailbox.example matched to this participant.
+Katarzyna Wolny,refund,200,
+Liang Wei,refund,200,No Unique ID in Airtable.
+Lucia Romano,no refund,0,"On the waiting list, so no deposit was taken."
+Marta Kowal,not yet,0,"Missing: an application. Paid a USD 200 deposit (Stripe, 2026-05-19, marta.kowal@mailbox.example) but has no application in Airtable. Find the application, or refund the deposit."
+Mateo Alvarez,no refund,0,No deposit was taken; the programme was paid by OrgGamma Ltd.
+Noor Rahman,refund,50,
+Oluwaseun Bello,not yet,0,"Missing: confirmation of the week 5 reflection. Attendance is 9/9, but the reflection on weekly_reflections.csv line 115 is labelled week 4 a second time; if it is really week 5, refund. Attendance sheet total is wrong (says 7 but the cells add up to 9)."
+Peter Hale,no refund,0,"Declined the place, so no deposit was taken."
+Priya Nair,refund,200,Records under priya.nair@orgalpha.exmaple matched to this participant.
+Rafael Monteiro,no refund,0,Dropped out after week 2 (attended 2 of 9 sessions).
+Sofia Marchetti,no refund,0,No reflection for week 8.
+Tomas Novak,no refund,0,"Attended 6 of 9 sessions (needs 8); week 12 is not recorded but can't change the result. Paid one combined EUR 212 charge, so the deposit part is not separated."
+Yuki Tanaka,refund,200,"Week 12 attendance not recorded, but already has 8 sessions. Airtable status is still 'In Facilitation Round'."

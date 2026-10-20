@@ -1,0 +1,39 @@
+id,Created (UTC),Amount,Currency,Fee,Amount Refunded,Status,Description,Customer Email,Customer Name,Channel
+WISE-208397,02/09/2026,-50.00,USD,,,,MD refund Noor R.,,,Wise (manual entry)
+WISE-511294,22/05/2026,50.00,USD,,,,MD Noor R.,,,Wise (manual entry)
+WISE-645073,15/05/2026,50.00,USD,,,,MD Oluwaseun B.,,,Wise (manual entry)
+ch_SYN795154,2026-05-14 16:41,200.00,USD,6.10,200.00,Refunded,CBT Lab motivational deposit,anneke.bos@orgalpha.example,Anneke Bos,Stripe
+ch_SYN7DAAF0,2026-05-14 16:43,100.00,USD,3.20,0.00,Paid,CBT Lab program contribution,anneke.bos@orgalpha.example,Anneke Bos,Stripe
+ch_SYN814AF2,2026-05-23 13:55,200.00,USD,6.10,200.00,Refunded,CBT Lab motivational deposit,k.wolny@mailbox.example,Katarzyna Wolny,Stripe
+ch_SYN82048C,2026-05-23 13:57,50.00,USD,1.75,0.00,Paid,CBT Lab program contribution,k.wolny@mailbox.example,Katarzyna Wolny,Stripe
+ch_SYN84315A,2026-05-15 14:55,50.00,USD,1.75,50.00,Refunded,CBT Lab motivational deposit,daniel.reyes@mailbox.example,Daniel Reyes,Stripe
+ch_SYN87D15C,2026-05-16 13:18,50.00,USD,1.75,0.00,Paid,CBT Lab motivational deposit,d.okoro@uni-nord.example,Daniel Okoro,Stripe
+ch_SYN8B526F,2026-05-25 10:42,200.00,USD,6.10,0.00,Paid,CBT Lab motivational deposit,priya.nair@orgalpha.example,Priya Nair,Stripe
+ch_SYN8F8D1C,2026-05-25 10:44,150.00,USD,4.65,0.00,Paid,CBT Lab program contribution,priya.nair@orgalpha.example,Priya Nair,Stripe
+ch_SYN936AFC,2026-05-17 19:42,200.00,USD,6.10,0.00,Paid,CBT Lab motivational deposit,jfeld88@mailbox.example,Jonas Feld,Stripe
+ch_SYN94BF41,2026-05-17 19:44,150.00,USD,4.65,0.00,Paid,CBT Lab program contribution,jfeld88@mailbox.example,Jonas Feld,Stripe
+ch_SYN97E387,2026-05-13 10:59,200.00,USD,0.00,0.00,Failed,CBT Lab motivational deposit,sofia.marchetti@mailbox.example,Sofia Marchetti,Stripe
+ch_SYN98F9EE,2026-05-13 11:03,200.00,USD,6.10,0.00,Paid,CBT Lab motivational deposit,sofia.marchetti@mailbox.example,Sofia Marchetti,Stripe
+ch_SYN9C99F0,2026-05-13 11:05,80.00,USD,2.62,0.00,Paid,CBT Lab program contribution,sofia.marchetti@mailbox.example,Sofia Marchetti,Stripe
+ch_SYN9DCF46,2026-05-24 18:48,200.00,USD,6.10,200.00,Refunded,CBT Lab motivational deposit,liang.wei@orgbeta.example,Liang Wei,Stripe
+ch_SYNA15059,2026-05-24 18:50,150.00,USD,4.65,0.00,Paid,CBT Lab program contribution,liang.wei@orgbeta.example,Liang Wei,Stripe
+ch_SYNA436C1,2026-05-19 14:52,50.00,USD,1.75,0.00,Paid,CBT Lab motivational deposit,amara.diallo@uni-nord.example,Amara Diallo,Stripe
+ch_SYNA5A9F5,2026-05-12 13:45,200.00,USD,6.10,0.00,Paid,CBT Lab motivational deposit,hannah.lindgren@mailbox.example,Hannah Lindgren,Stripe
+ch_SYNA92B08,2026-05-12 13:47,100.00,USD,3.20,0.00,Paid,CBT Lab program contribution,hannah.lindgren@mailbox.example,Hannah Lindgren,Stripe
+ch_SYNACE9F9,2026-05-17 09:47,200.00,USD,6.10,0.00,Paid,CBT Lab motivational deposit,rafael.monteiro@mailbox.example,Rafael Monteiro,Stripe
+ch_SYNADA393,2026-05-17 09:49,30.00,USD,1.17,0.00,Paid,CBT Lab program contribution,rafael.monteiro@mailbox.example,Rafael Monteiro,Stripe
+ch_SYNB14395,2026-05-15 11:41,200.00,USD,6.10,200.00,Refunded,CBT Lab motivational deposit,emily.carter@mailbox.example,Emily Carter,Stripe
+ch_SYNB5F9FE,2026-05-15 11:43,150.00,USD,4.65,0.00,Paid,CBT Lab program contribution,emily.carter@mailbox.example,Emily Carter,Stripe
+ch_SYNB95C22,2026-05-17 11:33,150.00,USD,4.65,0.00,Paid,CBT Lab - M. Alvarez,finance@orggamma.example,OrgGamma Ltd,Stripe
+ch_SYNBB4B12,2026-05-17 16:47,200.00,USD,6.10,200.00,Refunded,CBT Lab motivational deposit,greta.sommer@orgalpha.example,Greta Sommer,Stripe
+ch_SYNBDD4AD,2026-05-17 16:49,120.00,USD,3.78,0.00,Paid,CBT Lab program contribution,greta.sommer@orgalpha.example,Greta Sommer,Stripe
+ch_SYNC1F06B,2026-05-25 10:52,200.00,USD,6.10,0.00,Paid,CBT Lab motivational deposit,yuki.tanaka@mailbox.example,Yuki Tanaka,Stripe
+ch_SYNC4D6D3,2026-05-25 10:54,100.00,USD,3.20,0.00,Paid,CBT Lab program contribution,yuki.tanaka@mailbox.example,Yuki Tanaka,Stripe
+ch_SYNC5717E,2026-05-24 13:25,200.00,USD,6.10,0.00,Paid,CBT Lab motivational deposit,isabel.ferreira@orgbeta.example,Isabel Ferreira,Stripe
+ch_SYNC7606E,2026-05-24 13:27,90.00,USD,2.91,0.00,Paid,CBT Lab program contribution,isabel.ferreira@orgbeta.example,Isabel Ferreira,Stripe
+ch_SYNCAE181,2026-05-24 12:37,212.00,EUR,6.45,0.00,Paid,CBT Lab,tomas.novak@mailbox.example,Tomas Novak,Stripe
+ch_SYNCC73A4,2026-05-25 19:02,50.00,USD,1.75,0.00,Paid,CBT Lab motivational deposit,aisha.khan@uni-nord.example,Aisha Khan,Stripe
+ch_SYNCDE6D8,2026-05-15 15:56,200.00,USD,6.10,0.00,Paid,CBT Lab motivational deposit,ben.whitlock@mailbox.example,Ben Whitlock,Stripe
+ch_SYND12A0D,2026-05-15 15:58,150.00,USD,4.65,0.00,Paid,CBT Lab program contribution,ben.whitlock@mailbox.example,Ben Whitlock,Stripe
+ch_SYND20296,2026-05-19 21:40,200.00,USD,6.10,0.00,Paid,CBT Lab motivational deposit,marta.kowal@mailbox.example,Marta Kowal,Stripe
+ch_SYND42F64,2025-09-02 10:05,200.00,USD,6.10,200.00,Refunded,CBT Lab motivational deposit,emily.carter@mailbox.example,Emily Carter,Stripe

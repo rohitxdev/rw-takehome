@@ -1,0 +1,27 @@
+Unique ID,Email Address,Full Name,Preferred Name,Country,Timezone,Application Timestamp,Cohort,Overall Status,Group,Payment received,Payment Channel,Motivational Deposit Amount,Motivational Deposit Status,Sharing Consent,Notes (by RW team)
+RW26-018,yuki.tanaka@mailbox.example,Yuki Tanaka,Yuki,Japan,UTC+9,2026-04-22T03:59:00.000Z,2026 Summer,In Facilitation Round,Group 84,,Stripe,200,Pending,Yes,
+RW26-017,greta.sommer@orgalpha.example,Greta Sommer,Greta,Germany,UTC+1,2026-04-26T10:32:00.000Z,2026 Summer,Program Completed,Group 83,checked,Stripe,200,Pending,Yes,IBAN for refund: XX00 FAKE 0000 0000 0000 00 (sent by email)
+RW26-001,anneke.bos@orgalpha.example,Anneke Bos,Anneke,Netherlands,UTC+1,2026-05-06T01:19:00.000Z,2026 Summer,Program Completed,Group 81,checked,Stripe,200,Refunded,Yes,
+RW26-002,k.wolny@mailbox.example,Katarzyna Wolny,Kat,Poland,UTC+1,2026-05-01T04:37:00.000Z,2026 Summer,Program Completed,81,checked,Stripe,200,Refunded,Yes,
+RW26-013,noor.rahman@uni-nord.example,Noor Rahman,Noor,Bangladesh,UTC+6,2026-05-01T02:55:00.000Z,2026 Summer,Program Completed,Group 8383,checked,Wise,50,Refunded,Yes,
+,liang.wei@orgbeta.example,Liang Wei,Liang,Singapore,UTC+8,2026-05-06T01:03:00.000Z,2026 Summer,Program Completed,Group 82,checked,Stripe,200,Refunded,Yes,
+RW26-020,tomas.novak@mailbox.example,Tomas Novak,Tomas,Czechia,UTC+1,2026-04-22T22:08:00.000Z,2026 Summer,In Facilitation Round,Group 84,checked,Stripe,200,Not Met,Yes,
+RW26-007,sofia.marchetti@mailbox.example,Sofia Marchetti,Sofia,Italy,UTC+1,2026-05-06T16:08:00.000Z,2026 Summer,Program Completed,Group 82,checked,Stripe,200,Pending,Yes,
+RW26-021,aisha.khan@uni-nord.example,Aisha Khan,Aisha,Pakistan,UTC+5,2026-05-08T07:23:00.000Z,2026 Summer,In Facilitation Round,Group 84,checked,Stripe,50,Donated,No,wants to donate deposit
+RW26-010,hannah.lindgren@mailbox.example,Hannah Lindgren,Hannah,Sweden,UTC+1,2026-04-26T06:01:00.000Z,2026 Summer,Program Completed,Group 83,checked,Stripe,200,Pending,Yes,moved to G83 from wk3 (schedule clash)
+RW26-011,rafael.monteiro@mailbox.example,Rafael Monteiro,Rafa,Brazil,UTC-3,2026-04-25T01:07:00.000Z,2026 Summer,In Facilitation Round,Group 82,checked,Stripe,200,Pending,Yes,no reply since wk 3
+RW25-112,emily.carter@mailbox.example,Emily Carter,Emily,United Kingdom,UTC+0,2025-08-11T09:30:00.000Z,2025 Fall,Program Completed,Group 44,checked,Stripe,200,Refunded,Yes,
+RW26-015,chiara.bianchi@mailbox.example,Chiara Bianchi,Chiara,Italy,UTC+1,2026-04-26T13:08:00.000Z,2026 Summer,Program Completed,Group 83,checked,PayPal,200,Pending,Yes,paid via PayPal 22 May
+RW26-024,peter.hale@orgbeta.example,Peter Hale,Pete,Ireland,UTC+0,2026-04-28T16:45:31.000Z,2026 Summer,Declined,,,,,Not Applicable,Yes,"declined 14 May, timing"
+RW26-027,daniel.reyes@mailbox.example,Daniel Reyes,Dan,Philippines,UTC+8,2026-05-09T02:11:45.000Z,2026 Summer,For Matching,,,,50,Pending,Yes,applied twice?
+RW26-004,d.okoro@uni-nord.example,Daniel Okoro,Daniel,Nigeria,UTC+1,2026-04-21T15:58:00.000Z,2026 Summer,Program Completed,Group 81,checked,Stripe,50,Not Met,Yes,
+RW26-022,ben.whitlock@mailbox.example,Ben Whitlock,Ben,Australia,UTC+10,2026-04-24T22:31:00.000Z,2026 Summer,In Facilitation Round,Group 84,checked,Stripe,200,Refunded,Yes,
+RW26-019,isabel.ferreira@orgbeta.example,Isabel Ferreira,Isa,Portugal,UTC+0,2026-04-30T10:25:00.000Z,2026 Summer,In Facilitation Round,84,checked,Stripe,200,Pending,Yes,
+RW26-009,amara.diallo@uni-nord.example,Amara Diallo,Amara,Senegal,UTC+0,2026-05-01T18:30:00.000Z,2026 Summer,Program Completed,82,checked,Stripe,50,Pending,Yes,"mentioned panic attacks on intake call, prefers evening group"
+RW26-023,lucia.romano@mailbox.example,Lucia Romano,Lucia,Italy,UTC+1,2026-05-06T11:02:10.000Z,2026 Summer,Waiting List,,,,200,Not Applicable,Yes,
+RW26-006,jonas.feld@orgbeta.example,Jonas Feld,Jonas,Germany,UTC+1,2026-04-24T01:39:00.000Z,2026 Summer,Program Completed,Group 81,checked,Stripe,200,Pending,Yes,uses private email for forms
+RW26-014,mateo.alvarez@orggamma.example,Mateo Alvarez,Mateo,Mexico,UTC-6,2026-05-07T04:04:00.000Z,2026 Summer,Program Completed,Group 83,checked,Stripe,,Not Applicable,Yes,"employer pays, invoice sent"
+RW26-003,daniel.reyes@mailbox.example,Daniel Reyes,Daniel,Philippines,UTC+8,2026-05-05T09:36:00.000Z,2026 Summer,Program Completed,Group 81,checked,Stripe,50,Refunded,Yes,
+RW26-005,Priya.Nair@orgalpha.example,Priya Nair,Priya,India,UTC+5:30,2026-04-25T15:47:00.000Z,2026 Summer,Program Completed,Group 81,checked,Stripe,200,Pending,Yes,
+RW26-012,emily.carter@mailbox.example,Emily Carter,Emily,United Kingdom,UTC+0,2026-04-30T13:24:00.000Z,2026 Summer,Program Completed,Group 82,checked,Stripe,200,Refunded,Yes,
+RW26-016,seun.bello@mailbox.example,Oluwaseun Bello,Seun,Nigeria,UTC+1,2026-04-24T19:52:00.000Z,2026 Summer,Program Completed,Group 83,checked,Wise,50,Pending,Yes,
